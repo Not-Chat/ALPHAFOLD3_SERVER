@@ -15,7 +15,7 @@ Most of these only work for protein sequences without any post-translational mod
    Output: Individual folders with one .json file each both named for the species name of an input .gb file
 3. Added NC_ACCESSION_TO_JSON_NCBI_CLEAN.ipynb will download a NCBI Accession number and process it into a .json file    formatted for the AF3 Server.
    Input: NCBI NC Accession number, your email, and an output directory.
-   Output: .json file formatted for AF3 Server within our specified output directory.
+   Output: .json file formatted for AF3 Server within your specified output directory.
 
 ## Update log:
 1. 2024-07-15 Initial commit of FAA_TO_JSON_LOCAL_CLEAN.ipynb
