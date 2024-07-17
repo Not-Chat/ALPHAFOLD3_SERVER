@@ -1,4 +1,4 @@
-# Alphafold3_Server
+# Alphafold3 Server
 
 ## Description:
 This is a collection of helpful Python scripts for working with Alphafold3, FASTA/Genbank/JSON files, and related scripts! I had found it quite frustrating to work with the AF3 server (found here: https://alphafoldserver.com/), copying and pasting every FASTA sequence, so I created a set of Python3 notebooks to do work with AF3 in a high throughput manner. 
