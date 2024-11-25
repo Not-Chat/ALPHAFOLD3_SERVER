@@ -21,3 +21,4 @@ Most of these only work for protein sequences without any post-translational mod
 1. 2024-07-15 Initial commit of FAA_TO_JSON_LOCAL_CLEAN.ipynb
 2. 2024-07-16 Initial commit of GB_DIRECTORY_TO_JSON_CLEAN.ipynb
 3. 2024-07-17 Initial commit of NC_ACCESSION_TO_JSON_NCBI_CLEAN.ipynb
+4. Yeah, I got bored of manually typing all of these, you can look at the commit changes if you want
