@@ -16,5 +16,17 @@ Most of these only work for protein sequences without any post-translational mod
 3. Added NC_ACCESSION_TO_JSON_NCBI_CLEAN.ipynb will download a NCBI Accession number and process it into a .json file formatted for the AF3 Server.
    Input: NCBI NC Accession number, your email, and an output directory.
    Output: .json file formatted for AF3 Server within your specified output directory.
+4. Added GB_TO_JSON_UPDATE_2024_11_25.ipynb that will convert .gb files into output .json files. Works for both miRNAs and proteins (note: for miRNAs, AF will just display a small line without much structural information as they are very small).
+   Input: Folder containing your .gb files
+   Output: .json files in separate folders
+5. Added JSON_SUM_CONFID_CLEAN.ipynb that will record, organize, clean, and store output metrics from your "fold_your_protein_summary_confidences_#.json" files in a .csv
+   Input: Directory containing your summary confidence files (can be a parent directory of predicted AF3 models and it will walk through all of them)
+   Output: .csv containing information on your models' 'fraction_disordered', 'has_clash', 'num_recycles', 'ptm', 'ranking_score', 'chain_iptm', 'chain_pair_iptm', 'chain_pair_pae_min', 'chain_ptm.
+6. Added AF3_AVERAGE_PLDDT_JSON_CLEAN_2025_01_06.ipynb that will summarize the length of your predicted structure as well as the average plddt for your model (as the server does not readily give that).
+   Input: Directory containing your fold_protein_name_full_data_#.json files
+   Output: .csv with your protein name, protein length, and average plddt
+7. GB_TO_FAA_WALK_CLEAN_2025_02_21.ipynb will take a parent directory of .gb files and create .faa files for each protein found in your .gb files. Useful when comparing orthologs among related species for downstream MSA.
+   Input: Directory containing your .gb files
+   Output: Two different files - 1 .faa file for every protein and individual isoforms and combined files of a protein as well as all of its isoforms (i.e. protein_A_alpha.faa, protein_A_beta.faa, and protein_A_combined.faa)
 
-
+### Updated 2025-02-21
