@@ -33,5 +33,3 @@ Most of these only work for protein sequences without any post-translational mod
    Output: .fas file of all 3Di-transformed .cif/.pdb files aligned in FASTA format
 
 ### Updated 2025-03-18
-
-![Shrek](https://en.wikipedia.org/wiki/Shrek_%28character%29#/media/File:Shrek_(character).png)
