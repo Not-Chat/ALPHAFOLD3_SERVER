@@ -33,8 +33,3 @@ Most of these only work for protein sequences without any post-translational mod
    Output: .fas file of all 3Di-transformed .cif/.pdb files aligned in FASTA format
 
 ### Updated 2025-03-18
-
-Me explaining my code and my own ignorance:
-![Screenshot 2025-03-18 at 6 14 57 PM](https://github.com/user-attachments/assets/c0f1da61-68a6-42c8-895b-19906e993c29)
-
-
