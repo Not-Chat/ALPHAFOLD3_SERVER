@@ -29,9 +29,9 @@ Most of these only work for protein sequences without any post-translational mod
    Input: Directory containing your .gb files
    Output: Two different files - 1 .faa file for every protein and individual isoforms and combined files of a protein as well as all of its isoforms (i.e. protein_A_alpha.faa, protein_A_beta.faa, and protein_A_combined.faa)
 8. Added `CIF_TO_3Di_CLEAN.ipynb` that will take either .pdb or .cif files and transform them into the 3Di language used by Foldseek. Makes use of mini3Di from <https://github.com/althonos/mini3di>.
-
-![Shrek](https://en.wikipedia.org/wiki/Shrek_%28character%29#/media/File:Shrek_(character).png)
    Input: Directory of .cif/.pdb files containing only one specific protein (designed for orthologs)
    Output: .fas file of all 3Di-transformed .cif/.pdb files aligned in FASTA format
 
 ### Updated 2025-03-18
+
+![Shrek](https://en.wikipedia.org/wiki/Shrek_%28character%29#/media/File:Shrek_(character).png)
