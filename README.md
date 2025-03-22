@@ -3,7 +3,7 @@
 ## Description:
 This is a collection of helpful Python scripts for working with Alphafold3, FASTA/Genbank/JSON files, and related scripts! I had found it quite frustrating to work with the AF3 server (found here: <https://alphafoldserver.com/>), copying and pasting every FASTA sequence, so I created a set of Python3 notebooks to do work with AF3 in a high throughput manner. 
 
-## [!NOTE]
+## **NOTE**
 Most of these only work for protein sequences without any post-translational modifications (PTMs) including phosphorylation, glycosylation, SUMOlation, etc. 
 
 ## Contents:
@@ -31,5 +31,8 @@ Most of these only work for protein sequences without any post-translational mod
 8. Added `CIF_TO_3Di_CLEAN.ipynb` that will take either .pdb or .cif files and transform them into the 3Di language used by Foldseek. Makes use of mini3Di from <https://github.com/althonos/mini3di>.
    Input: Directory of .cif/.pdb files containing only one specific protein (designed for orthologs)
    Output: .fas file of all 3Di-transformed .cif/.pdb files aligned in FASTA format
+9. Added AF3_FILE_TYPE_SEP.ipynb to easily separate AF3 outputs by file types.
+   Input: Directory of downloaded AF3 files.
+   Output: A series of separate folders for "full_data", "model", "summary_confidences", and "job_request" files.
 
-### Updated 2025-03-18
+### Updated 2025-03-21
